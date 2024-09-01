@@ -1,0 +1,47 @@
+{
+	"name": "react-text-admin",
+	"description": "Данная библиотека позволяет изменять текст внутри html-элементов. || This library allows you to edit text inside HTML elements.",
+	"keywords": [
+		"react",
+		"library",
+		"edit",
+		"text",
+		"admin"
+	],
+	"version": "1.0.12",
+	"license": "MIT",
+	"main": "dist/index.cjs.js",
+	"module": "dist/index.es.js",
+	"exports": {
+		".": {
+			"import": "./dist/index.es.js",
+			"require": "./dist/index.cjs.js"
+		}
+	},
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc -b && vite build",
+		"preview": "vite preview"
+	},
+	"author": "Kovalenko D.V.",
+	"peerDependencies": {
+		"react": "^17.0.0 || ^18.3.1",
+		"react-dom": "^17.0.0 || ^18.3.1"
+	},
+	"dependencies": {
+		"react": "^17.0.0 || ^18.3.1",
+		"react-dom": "^17.0.0 || ^18.3.1"
+	},
+	"devDependencies": {
+		"@types/react": "^18.3.3",
+		"@types/react-dom": "^18.3.0",
+		"@vitejs/plugin-react": "^4.3.1",
+		"globals": "^15.9.0",
+		"node-stdlib-browser": "^1.2.0",
+		"typescript": "^5.5.3",
+		"typescript-eslint": "^8.0.1",
+		"vite": "^5.4.1",
+		"vite-plugin-node-stdlib-browser": "^0.2.1"
+	}
+}
